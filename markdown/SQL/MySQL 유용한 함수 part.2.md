@@ -56,5 +56,4 @@ SELECT * FROM items INNER JOIN ranking ON ranking.item_code = items.item_code WH
 ```mysql
 SELECT * FROM items a INNER JOIN ranking b ON a.item_code = b.item_code WHERE b.main_category = "ALL" 
 ```
-
 <br>
