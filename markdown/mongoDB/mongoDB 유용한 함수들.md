@@ -6,7 +6,7 @@
 * update_one(), update_many() 함수 활용
 
 <pre>
-예) collection.update_many ({}, { '$rename': {'다른 이름': '다른이름'} })
+예) collection.update_many ({}, { '$rename': {'기존값': '변경할값'} })
 </pre>
 
 <br>
